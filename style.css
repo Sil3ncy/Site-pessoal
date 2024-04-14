@@ -1,0 +1,189 @@
+html{
+    height: 100%;
+}
+  
+.carrossel{
+        width: 1270px;
+        margin: 0 auto;
+    }
+
+.google-map{
+       margin: 0 auto;
+       
+    }
+
+.alinhamento{
+        text-align: center;
+    }
+
+img.diego{
+  max-width: 350px;   
+  float: left;  
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.wrapper{
+    margin: 200px auto;
+    width: 90%;
+}
+
+.text-box h2{
+    font-size: 42px;
+}
+
+.text-box p{
+    font-size: 26px;
+}
+
+.repositorios{
+    display: flex;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+img.resolucao{
+    max-width: 300px;
+
+}
+
+div.colegas{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+p{
+    font-size: 27px;
+}
+
+body{
+    height: 100%;
+}
+
+/* Estilo para dispositivos com largura de tela até 600px */
+@media (max-width: 600px) {
+    .navbar-brand h1, .nav-link h3 {
+      font-size: 18px;
+    }
+    .navbar-brand, .nav-link {
+      margin: 0 1rem;
+    }
+  }
+  
+  /* Estilo para dispositivos com largura de tela entre 601px e 992px */
+  @media (min-width: 601px) and (max-width: 992px) {
+    .navbar-brand h1, .nav-link h3 {
+      font-size: 24px;
+    }
+    .navbar-brand, .nav-link {
+      margin: 0 2rem;
+    }
+  }
+  
+  /* Estilo para dispositivos com largura de tela maior que 992px */
+  @media (min-width: 993px) {
+    .navbar-brand h1, .nav-link h3 {
+      font-size: 30px;
+    }
+    .navbar-brand, .nav-link {
+      margin: 0 3rem;
+    }
+  }
+
+
+/**/
+
+
+/* Estilo para dispositivos com largura de tela até 600px */
+@media (max-width: 600px) {
+    .perfil h1, .text-box h2, .text-box p {
+      font-size: 14px;
+    }
+    .diego {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Estilo para dispositivos com largura de tela entre 601px e 992px */
+  @media (min-width: 601px) and (max-width: 992px) {
+    .perfil h1, .text-box h2, .text-box p {
+      font-size: 18px;
+    }
+    .diego {
+      width: 75%;
+      height: auto;
+    }
+  }
+  
+  /* Estilo para dispositivos com largura de tela maior que 992px */
+  @media (min-width: 993px) {
+    .perfil h1, .text-box h2, .text-box p {
+      font-size: 24px;
+    }
+    .diego {
+      width: 50%;
+      height: auto;
+    }
+  }
+  
+
+/*=================================================================================================================================================================================*/
+
+
+ /* Estilo para dispositivos com largura de tela até 600px */
+@media (max-width: 600px) {
+    .resolucao {
+      width: 100%;
+      height: auto;
+      margin: 10px 0;
+    }
+  }
+  
+  /* Estilo para dispositivos com largura de tela entre 601px e 992px */
+  @media (min-width: 601px) and (max-width: 992px) {
+    .resolucao {
+      width: 45%;
+      height: auto;
+      margin: 15px 2.5%;
+    }
+  }
+  
+  /* Estilo para dispositivos com largura de tela maior que 992px */
+  @media (min-width: 993px) {
+    .resolucao {
+      width: 30%;
+      height: auto;
+      margin: 20px 3.33%;
+    }
+  }
+  
+
+
+
+  /* Estilo para dispositivos com largura de tela até 600px */
+@media (max-width: 600px) {
+    h1, h3, p {
+      font-size: 14px;
+      padding: 10px 0;
+    }
+  }
+  
+  /* Estilo para dispositivos com largura de tela entre 601px e 992px */
+  @media (min-width: 601px) and (max-width: 992px) {
+    h1, h3, p {
+      font-size: 18px;
+      padding: 15px 0;
+    }
+  }
+  
+  /* Estilo para dispositivos com largura de tela maior que 992px */
+  @media (min-width: 993px) {
+    h1, h3, p {
+      font-size: 24px;
+      padding: 20px 0;
+    }
+  }
+  
